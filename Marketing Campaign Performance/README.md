@@ -1,32 +1,32 @@
-### Project Title
+### Marketing campaign performance analysis
 
-**Author**
+**Prosenjit Sinha**
 
-#### Executive summary
+#### Analyze the campaign data from the perspective of an ad agency.  
 
 #### Rationale
-Why should anyone care about this question?
+Ad agencies want to understand what factors are impacting the campaign performance. This helps them to take corrective action, guide the advertisers to take certain measures.
 
 #### Research Question
-What are you trying to answer?
+How is the conversion rate related to different factors like campaign type, target audience, duration, location, language etc.
 
 #### Data Sources
-What data will you use to answer you question?
+I will use the marketing dataset from Kaggle: https://www.kaggle.com/code/thabresh/eda-marketing-campaign-performance/input
 
 #### Methodology
-What methods are you using to answer the question?
+Data cleaning: Made sure there is no column with null value. 
+Date preparation: Converted Aquisition_Cost to float. Used column transformer for the categorical columns
+Data understanding: Used different plotting mechanisms to understand the distribution of important columns. 
+Model building: Used Linear regression, Ridge, Lasso, SVR with polynomial feature selection. Used GridSearchCV for Ridge and SVR.
 
 #### Results
-What did your research find?
+SVR/Lasso performed better than other models. Feature wise campaign type matters the most, specially Display campaigns.
 
 #### Next steps
-What suggestions do you have for next steps?
+I want to do a similar analysis from the Company perspective as well. Fot them ROI or Aquisition_Cost makes more sense to understand how is their campaign doing.
 
 #### Outline of project
-
-- [Link to notebook 1]()
-- [Link to notebook 2]()
-- [Link to notebook 3]()
+- https://github.com/prosens/Projects/blob/main/Marketing%20Campaign%20Performance/campaign.ipynb
 
 
 ##### Contact and Further Information
